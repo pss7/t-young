@@ -3,20 +3,20 @@ $(function () {
   /* 헤더 */
   $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
-      $('#headerWrap').addClass('scroll');
+      $('#header').addClass('scroll');
     } else {
-      $('#headerWrap').removeClass('scroll');
+      $('#header').removeClass('scroll');
     }
   });
 
-  $('#headerWrap .mobileBtn').click(function () {
-    $('#headerWrap .mobileMenuBox').animate({
+  $('#header .mobileBtn').click(function () {
+    $('#header .mobileMenuBox').animate({
       right: 0
     })
   });
 
-  $('#headerWrap .mobileMenuBox .mobileCloseBtn').click(function () {
-    $('#headerWrap .mobileMenuBox').animate({
+  $('#header .mobileMenuBox .mobileCloseBtn').click(function () {
+    $('#header .mobileMenuBox').animate({
       right: -3000
     })
   });
@@ -37,7 +37,5 @@ $(function () {
     }, 500);
     return false;
   });
-
-
 
 })
