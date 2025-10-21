@@ -87,6 +87,8 @@
 #footer .footerCenterBox .list li:last-child:after{display: none;}
 #footer .footerCenterBox .list li a{display: block; font-weight: 700; color: #888;}
 #footer .footerCenterBox .snsBox{display: flex; gap: 0 10px;}
+#footer .footerCenterBox .snsBox a{transition: all .2s;}
+#footer .footerCenterBox .snsBox a:hover{transform: translateY(-7px);}
 #footer .footerCenterBox .snsBox a img{display: block;}
 #footer .footerCenterBox .layoutBox{display: flex; align-items: center; justify-content: space-between;}
 #footer .footerBottomBox{padding: 30px 0 50px;}
