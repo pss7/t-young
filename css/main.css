@@ -22,10 +22,11 @@
 #section01 .box .loginBox .authBox a.btn01::before{background: #fff url(../images/main/icon01.svg)no-repeat center;}
 #section01 .box .loginBox .authBox a.btn02::before{background: #fff url(../images/main/icon02.svg)no-repeat center;}
 #section01 .box .imgBox{position: relative; margin-top: -50px;}
-#section01 .box .imgBox .icon01{position: absolute; top:-18px; left:-9px;}
+#section01 .box .imgBox .icon01{width: 86px; height: 100px; position: absolute; top:-18px; left:-9px;}
 #section01 .box .imgBox .icon02{position: absolute; top:-44px; right:-13px;}
 #section01 .box .imgBox .icon03{position: absolute; bottom: 30px; left:-49px;}
 #section01 .slick-list{overflow: visible;}
+#section01 .box .imgBox .icon{width: 101px; height: 110px;}
 
 @media (max-width: 1199px){
 
@@ -41,8 +42,8 @@
   #section01 .box .imgBox{right:60px; bottom: -54px;}
   #section01 .box .imgBox .img01{width: 300px;}
   #section01 .box .imgBox .icon01{width: 85px;}
-  #section01 .box .imgBox .icon02,
-  #section01 .box .imgBox .icon03{width: 95px;}
+  #section01 .box .imgBox .icon,
+  #section01 .box .imgBox .icon{width: 95px; height: 103px;}
   #section01 .box .imgBox .icon03{bottom: 3px;}
 
 }
